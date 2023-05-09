@@ -7,11 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-
-def names_with_am (item):
-    
-    return 'am' in item.lower()
-
-new_list = list(filter(names_with_am, names))
-
-print(new_list)

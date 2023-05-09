@@ -5,7 +5,5 @@ contact = {
 }
 #Your code here:
 
-for i in contact:
-  
-    print(contact.items[i])
-
+for key, value in contact.items():
+    print(key + " : " + value)

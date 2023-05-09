@@ -13,10 +13,3 @@ tasks = [
 
 #Your code go here:
 
-def delete_task (item):
-    if item["done"] == True:
-        return item
-
-new_list = list(filter(delete_task, tasks))
-
-print(new_list)

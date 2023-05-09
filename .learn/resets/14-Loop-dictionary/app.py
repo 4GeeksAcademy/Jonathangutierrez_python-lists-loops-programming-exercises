@@ -1,7 +1,7 @@
 spanish_translations = { "dog": "perro", "house": "casa", "cat": "gato" }
 # Your code here
 spanish_translations["love"] = "amor"
-spanish_translations["code"] = "codigo"
+spanish_translations["code"] = "código"
 spanish_translations["smart"] = "inteligente"
 
 
