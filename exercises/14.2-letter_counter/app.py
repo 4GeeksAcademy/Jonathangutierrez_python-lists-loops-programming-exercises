@@ -3,5 +3,18 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 counts = {}
 #your code go here:
 
-print(counts)
+def count(string):
+    counts = {}
+    for letter in string:
+        if letter.isalpha():
+            if letter.lower() in counts:
+                counts[letter.lower()] += 1
+            else:
+                counts[letter.lower()] = 1
+    return counts
+
+
+print(count(par))
+
+
 
